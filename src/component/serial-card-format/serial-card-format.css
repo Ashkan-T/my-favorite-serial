@@ -1,7 +1,8 @@
 .serial-card-format{
 
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     position: relative;
+    padding-left: 100px;
 }
 
 .serial-card-format>.serial-description{
@@ -9,6 +10,7 @@
     width: 1000px;
     height: 300px;
     border-radius: 15px;
+    box-shadow: 0 0 20px rgb(154, 10, 10);
 }
 
 .serial-card-format>.serial-season-image{
@@ -16,16 +18,58 @@
     height: 300px;
     position: absolute;
     bottom: 50px;
-    left: 450px;
+    left: 570px;
 }
 
-.serial-card-format>.serial-description>.serial-season-imdb{
+.serial-card-format .serial-description-season-imdb{
     background-color: yellow;
-    width: 32px;
-    height: ;
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    bottom: 50px;
+    left: 350px;
+    font-size: 19px;
+    color: green;
 }
 
+.serial-card-format .serial-description-genre{
+    width: 258px;
+    height: 60px;
+    position: absolute;
+    line-height: 60px;
+    text-align: center;
+    top: 30px;
+    left: 290px;
+    font-size: 20px;
+    border-bottom: 5px dashed rgb(23, 23, 114);
+}
 
+.serial-card-format .serial-description-number-season{
+    width: 150px;
+    height: 60px;
+    border-bottom: 5px dashed rgb(23, 23, 114);
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
 
-
+.serial-card-format .serial-description-season-year{
+    width: 180px;
+    height: 52px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 50px;
+    left: 130px;
+    font-size: 19px;
+    color: yellow;
+}
 

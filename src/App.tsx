@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
-import logo from "./images/336442851_1277974583102386_5163510510687732777_n-1.png";
+import logo from "./images/riverdale-season-4-release-date.jpg";
 import Header from "./component/header/serial-header";
 import CardFormat from "./component/serial-card-format/serial-card-format";
-import season1Image from "./images/seasonPicture/Riverdale-2017.jpg.webp";
-import season2Image from "./images/seasonPicture/Riverdale-2017.jpg-1.webp";
-import season3Image from "./images/seasonPicture/Riverdale-season-3.jpg.webp";
-import season4Image from "./images/seasonPicture/Riverdale.jpg.webp";
-import season5Image from "./images/seasonPicture/Riverdale_2017–.jpg.webp";
-import season6Image from "./images/seasonPicture/Riverdale-2022-HAMRAHMOVIEES_result.webp";
-import Footer from "./component/footer/serial-footer";
-import footerImage from "./images/seasonPicture/Riverdale-2017.jpg-1.webp";
+import season1Image from "./images/seasonPicture/riverdale-pictures-nxnsotd3ztakjf7i.jpg";
+import season2Image from "./images/seasonPicture/Riverdale1-e1547561795750.webp";
+import season3Image from "./images/seasonPicture/riverdale-og.jpg";
+import season4Image from "./images/seasonPicture/213329-ca24a61.jpeg";
+import season5Image from "./images/seasonPicture/Bez-názvu-1-11.png";
+import season6Image from "./images/seasonPicture/fun-facts-riverdale-portada.jpg";
+import season7Image from "./images/seasonPicture/3234195.webp";
 
 function App() {
   return (
@@ -20,48 +19,50 @@ function App() {
         cardFormatImage={season1Image}
         serialMadeYear="2017"
         numberOfSerialSeason="Season 1"
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialIMDB="6.8"
+        serialGenre=""
       />
       <CardFormat
         cardFormatImage={season2Image}
-        serialMadeYear="Season 2"
-        numberOfSerialSeason=""
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialMadeYear="2017"
+        numberOfSerialSeason="Season 2"
+        serialIMDB="6.7"
+        serialGenre=""
       />
       <CardFormat
         cardFormatImage={season3Image}
-        serialMadeYear="Season 3"
-        numberOfSerialSeason=""
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialMadeYear="2018"
+        numberOfSerialSeason="Season 3"
+        serialIMDB="6.7"
+        serialGenre=""
       />
       <CardFormat
         cardFormatImage={season4Image}
-        serialMadeYear="Season 4"
-        numberOfSerialSeason=""
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialMadeYear="2019"
+        numberOfSerialSeason="Season 4"
+        serialIMDB="6.7"
+        serialGenre=""
       />
       <CardFormat
         cardFormatImage={season5Image}
-        serialMadeYear="Season 5"
-        numberOfSerialSeason=""
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialMadeYear="2021"
+        numberOfSerialSeason="Season 5"
+        serialIMDB="6.6"
+        serialGenre=""
       />
       <CardFormat
         cardFormatImage={season6Image}
-        serialMadeYear="Season 6"
-        numberOfSerialSeason=""
-        serialIMDB="0"
-        serialGenre="جنایی ، درام"
+        serialMadeYear="2021"
+        numberOfSerialSeason="Season 6"
+        serialIMDB="6.7"
+        serialGenre=""
       />
-
-      <Footer
-        serialFooterImage={footerImage}
-        serialFooterDescription="Thats Work!!!!!!!!!!!"
+      <CardFormat
+        cardFormatImage={season7Image}
+        serialMadeYear="2023"
+        numberOfSerialSeason="Season 7"
+        serialIMDB="6.8"
+        serialGenre=""
       />
     </div>
   );
