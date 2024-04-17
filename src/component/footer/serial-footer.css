@@ -1,0 +1,26 @@
+.serial-footer{
+    height: 500px;
+    background-color: rgba(87, 24, 126, 0.273);
+}
+
+.light{
+    color: black;
+    background-color: rgba(52, 29, 145, 0.781);
+    font-weight: bolder;
+}
+
+.serial-footer>.serial-footer-image{
+    width: 700px;
+    height: 250px;
+    position: relative;
+    top: -40px;
+    right: 400px;
+
+}
+
+.serial-footer>.serial-footer-description{
+    text-align: justify;
+    padding: 0 20px;
+    direction: ltr;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./serial-card-format.css";
+import { SerialThemeColorContext } from "../../App";
 
 function CardFormat(props: {
   cardFormatImage: any;
@@ -8,6 +9,8 @@ function CardFormat(props: {
   serialIMDB: string;
   serialGenre: string;
 }) {
+  const serialCardFormatThemeColor = useContext(SerialThemeColorContext);
+
   return (
     <article className="serial-card-format">
       <img
@@ -15,11 +18,17 @@ function CardFormat(props: {
         src={props.cardFormatImage}
         alt={props.numberOfSerialSeason}
       />
-      <div className="serial-description">
-        <span className="serial-description-genre">
+      <div className={"serial-description-" + serialCardFormatThemeColor}>
+        <span
+          className={"serial-description-genre-" + serialCardFormatThemeColor}
+        >
           {"Genre : Drama,Crime,Mystery"}
         </span>
-        <span className="serial-description-number-season">
+        <span
+          className={
+            "serial-description-number-season-" + serialCardFormatThemeColor
+          }
+        >
           {props.numberOfSerialSeason}
         </span>
         <span className="serial-description-season-year">

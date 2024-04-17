@@ -1,16 +1,26 @@
 .serial-card-format{
 
     margin-bottom: 100px;
+    margin-left: 100px;
     position: relative;
     padding-left: 100px;
+    direction: ltr;
 }
 
-.serial-card-format>.serial-description{
-    background-color: rgba(131, 73, 137, 0.178);
+.serial-card-format>.serial-description-dark{
+    background-color: rgba(90, 25, 97, 0.3);
     width: 1000px;
     height: 300px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(154, 10, 10);
+}
+
+.serial-card-format>.serial-description-light{
+    background-color: rgba(20, 11, 96, 0.8);
+    width: 1000px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(17, 10, 154);
 }
 
 .serial-card-format>.serial-season-image{
@@ -19,6 +29,7 @@
     position: absolute;
     bottom: 50px;
     left: 570px;
+    border-radius: 15px;
 }
 
 .serial-card-format .serial-description-season-imdb{
@@ -35,7 +46,7 @@
     color: green;
 }
 
-.serial-card-format .serial-description-genre{
+.serial-card-format .serial-description-genre-light{
     width: 258px;
     height: 60px;
     position: absolute;
@@ -47,7 +58,34 @@
     border-bottom: 5px dashed rgb(23, 23, 114);
 }
 
-.serial-card-format .serial-description-number-season{
+.serial-card-format .serial-description-genre-dark{
+    width: 258px;
+    height: 60px;
+    position: absolute;
+    line-height: 60px;
+    text-align: center;
+    top: 30px;
+    left: 290px;
+    font-size: 20px;
+    border-bottom: 5px dashed rgb(114, 23, 23);
+}
+
+
+
+
+.serial-card-format .serial-description-number-season-dark{
+    width: 150px;
+    height: 60px;
+    border-bottom: 5px dashed rgb(114, 23, 23);
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.serial-card-format .serial-description-number-season-light{
     width: 150px;
     height: 60px;
     border-bottom: 5px dashed rgb(23, 23, 114);

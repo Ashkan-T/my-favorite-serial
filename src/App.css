@@ -1,8 +1,28 @@
 body{
-    background-image: url("./images/pngtree-colorful-neon-lights-light-up-a-brick-wall-in-an-ancient-picture-image_2766930.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-sizing: border-box;
-    
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+.serial-toggle-mode-botton{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px red solid;
+    top: 320px;
+    right: 100px;
+}
+.body-light{
+    background-color: white;
+}
+.body-dark{
+    background-color: black;
+    color: white;
+}
+.toggle-mode-botton-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
